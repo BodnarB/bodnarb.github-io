@@ -1,4 +1,4 @@
 ### Portfolio page
 
 
-[bodnarb.hu](www.bodnarb.hu)
+[bodnarb.hu](http://bodnarb.hu)
