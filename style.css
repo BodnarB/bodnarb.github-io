@@ -396,9 +396,14 @@ footer p {
 
     .btn-submit:hover {
         cursor: pointer;
+        color: white;
         background-color: #11679c;
         transition-duration: 0.3s;
 
+    }
+
+    .footer-btn:hover {
+        color: var(--main-font-color);
     }
 
 }
