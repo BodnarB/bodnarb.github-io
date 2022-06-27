@@ -385,6 +385,22 @@ footer p {
         width: 60px;
     }
 
+    .projec-links a:hover {
+        color: var(--main-font-color);
+        transition-duration: 0.3s;
+    }
+
+    form {
+        max-width: 700px;
+    }
+
+    .btn-submit:hover {
+        cursor: pointer;
+        background-color: #11679c;
+        transition-duration: 0.3s;
+
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -403,7 +419,7 @@ footer p {
     }
 
     .projec-links a {
-        margin: 0 0.2rem;
+        margin: 0 0.4rem;
     }
 
     .project-descriptionbox {
