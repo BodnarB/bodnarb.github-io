@@ -359,14 +359,14 @@ footer p {
 
     .menu-btn::after {
         height: 0.08rem;
-        left: 0%;
-        bottom: 0%;
+        left: 20%;
+        top: 76%;
         width: 0;
         transition: all 0.3s;
     }
 
     .menu-btn:hover::after {
-        width: 100%;
+        width: 60%;
     }
 
     header {
@@ -375,6 +375,10 @@ footer p {
 
     .logo {
         margin-left: 2rem;
+    }
+
+    #home {
+        padding: 4rem 1.6rem;
     }
 
     .skills-box {
@@ -429,6 +433,10 @@ footer p {
 
     .project-descriptionbox {
         margin-right: 2rem;
+    }
+
+    .portrait {
+        width: 340px;
     }
 
 }
