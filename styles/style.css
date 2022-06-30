@@ -127,31 +127,39 @@ h1 {
     margin: -0.6rem auto 0;
 }
 
+.section-title {
+    background-color: #09141b;
+    box-shadow: inset 0px -10px 15px -11px #000000;
+}
+
 h2 {
+    max-width: 1400px;
+    margin: 0 auto;
     font-size: 1.6rem;
     padding: 1rem;
     font-weight: 300;
     color: var(--main-color);
     letter-spacing: 3px;
-    background-color: #09141b;
-    box-shadow: inset 0px -10px 15px -11px #000000;
 }
 
 #projects {
     background-color: #171717;
 }
 
-.project-title {
+.project-title-container {
     background-color: #0e0e0e;
     background: linear-gradient(90deg, rgba(14, 14, 14, 1) 0%, rgb(23 23 23) 100%);
-    background-size: cover;
-    background-position: center center;
+}
+
+.project-title {
     padding: 0.6rem 2.3rem 0.5rem;
     font-size: 1.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     white-space: nowrap;
+    max-width: 1350px;
+    margin: 0 auto;
 }
 
 .projects-intro {
@@ -163,11 +171,11 @@ h2 {
     padding: 0;
 }
 
-.projects-intro p {
+h3 {
     text-align: center;
     padding: 0.3rem;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 0.04rem;
 }
 
@@ -390,7 +398,7 @@ footer p {
     }
 
     .skills-box {
-        padding: 0.5rem 1rem;
+        padding: 1rem;
     }
 
     .skills-icons {
@@ -435,7 +443,7 @@ footer p {
         display: grid;
         grid-template-columns: 50% 50%;
         align-items: center;
-        max-width: 1350px;
+        max-width: 1250px;
         margin: 0 auto;
     }
 
