@@ -138,7 +138,7 @@ h2 {
 }
 
 #projects {
-    background-color: #171717 ;
+    background-color: #171717;
 }
 
 .project-title {
@@ -229,6 +229,7 @@ form {
 input:focus,
 textarea:focus {
     outline: 1px solid #4acddb62;
+    background-color: #09141b;
 }
 
 .form-input {
@@ -291,8 +292,10 @@ footer {
 
 footer p {
     text-align: center;
+    font-size: 0.9rem;
     padding: 0 0 1rem;
-    color: #6a6a6a;
+    color: #c9c9c9;
+    font-weight: 300;
 }
 
 
@@ -435,7 +438,7 @@ footer p {
         max-width: 1350px;
         margin: 0 auto;
     }
-    
+
     .projec-links {
         white-space: nowrap;
         justify-content: flex-start;
