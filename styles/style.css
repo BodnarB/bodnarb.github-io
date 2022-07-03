@@ -273,7 +273,7 @@ textarea.form-input {
 
 .btn-submit {
     display: block;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
     font-size: 1.1rem;
     background: linear-gradient(135deg, #ffb1006c 0%, #000000 100%);
     border: none;
@@ -466,7 +466,7 @@ footer p {
     }
 
     form {
-        padding: 5rem 0;
+        padding: 3rem 0;
     }
 
 }
