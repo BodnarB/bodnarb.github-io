@@ -128,7 +128,7 @@ h1 {
 }
 
 .section-title {
-    background-color: #09141b;
+    background-color: #0c161c;
     box-shadow: inset 0px -10px 15px -11px #000000;
 }
 
@@ -225,7 +225,8 @@ h3 {
 }
 
 #contact {
-    background-color: #0b1c26;
+    background-color: #121212;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 form {
@@ -236,7 +237,7 @@ form {
 
 input:focus,
 textarea:focus {
-    outline: 1px solid #4acddb62;
+    outline: 1px solid var(--main-color);
     background-color: #09141b;
 }
 
@@ -246,7 +247,7 @@ textarea:focus {
     background: none;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #2a495a;
+    border-bottom: 1px solid var(--main-color);
     box-shadow: rgb(16 162 212 / 10%) 0px 15px 17px -20px;
     padding: 1rem;
     font-weight: 200;
@@ -256,7 +257,7 @@ textarea:focus {
 }
 
 textarea.form-input {
-    border: 1px solid #2a495a;
+    border: 1px solid var(--main-color);
     box-shadow: rgb(16 162 212 / 10%) 0px 15px 17px -20px;
     border-radius: 0.1rem;
     height: 150px;
@@ -274,7 +275,7 @@ textarea.form-input {
     display: block;
     margin: 2rem auto 0;
     font-size: 1.1rem;
-    background: linear-gradient(90deg, #2b5f806c 0%, #01080d 100%);
+    background: linear-gradient(135deg, #ffb1006c 0%, #000000 100%);
     border: none;
     border-radius: 0.2rem;
     color: var(--main-font-color);
@@ -417,7 +418,7 @@ footer p {
     .btn-submit:hover {
         cursor: pointer;
         color: white;
-        background-color: #11679c;
+        background-color: var(--main-color);
         transition-duration: 0.3s;
 
     }
@@ -462,6 +463,10 @@ footer p {
 
     .portrait {
         width: 340px;
+    }
+
+    form {
+        padding: 5rem 0;
     }
 
 }
