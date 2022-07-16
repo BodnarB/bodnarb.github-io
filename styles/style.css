@@ -96,8 +96,13 @@ header {
 }
 
 #home {
-    padding: 2rem 1.6rem;
-    background-image: linear-gradient(180deg, #1a374bea 32%, #2c46579c 100%), url(../imgs/homebg.svg);
+    display: flex;
+    padding: 2rem;
+    background-image: url(../imgs/sm.png), linear-gradient(180deg, #1a3749cb 32%, #112633cb 100%), url(../imgs/homebg.svg);
+    height: 420px;
+    background-size: contain, cover;
+    background-repeat: no-repeat, repeat, repeat;
+    background-position: center bottom, center;
 }
 
 span.letter {
@@ -118,14 +123,6 @@ h1 {
 .git-linked svg {
     margin-right: 0.8rem;
     display: block;
-}
-
-.portrait {
-    display: block;
-    max-width: 90%;
-    width: 270px;
-    margin: 0.6rem auto 0;
-    border-radius: 50%;
 }
 
 .section-title {
@@ -320,11 +317,12 @@ footer p {
     #home {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .portrait {
-        margin: 0 0 0 1rem;
+        justify-content: flex-start;
+        background: url(../imgs/ef3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 350px;
     }
 
 }
@@ -397,6 +395,7 @@ footer p {
 
     #home {
         padding: 4rem 1.6rem;
+        height: 450px;
     }
 
     .skills-box {
@@ -446,8 +445,8 @@ footer p {
     }
 
     #home {
-        padding: 4rem;
-        justify-content: center;
+        padding: 4rem 6rem;
+        height: 600px;
     }
 
     .project-box {
@@ -471,13 +470,19 @@ footer p {
         margin-right: 2rem;
     }
 
-    .portrait {
-        width: 380px;
-        margin-left: 13rem;
-    }
-
     form {
         padding: 3rem 0;
+    }
+
+}
+
+
+@media (min-width: 1400px) {
+
+    #home {
+        height: 100vh;
+        padding: 17rem 12rem;
+        align-items: flex-start;
     }
 
 }
