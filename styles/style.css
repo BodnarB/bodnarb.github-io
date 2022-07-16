@@ -437,8 +437,17 @@ footer p {
         margin: 0 auto;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
     .logo {
         margin: 0;
+    }
+
+    #home {
+        padding: 4rem;
+        justify-content: center;
     }
 
     .project-box {
@@ -463,7 +472,8 @@ footer p {
     }
 
     .portrait {
-        width: 340px;
+        width: 380px;
+        margin-left: 13rem;
     }
 
     form {
