@@ -67,6 +67,18 @@ body {
     top: -8px;
 }
 
+#menu-toggle:checked ~ .hamburger-button .hamburger-lines {
+    transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .hamburger-button .hamburger-lines::before {
+    display: none;
+}
+
+#menu-toggle:checked ~ .hamburger-button .hamburger-lines::after {
+    transform: rotate(-90deg);
+    top: 0;
+}
+
 header {
     color: var(--main-font-color);
     padding: 0.7rem 1.5rem;
@@ -92,7 +104,7 @@ header {
     display: block;
     padding: 0.7rem;
     font-weight: 300;
-    border-bottom: 1px solid #27404e;
+    border-bottom: 1px solid #4f5b60b8;
 }
 
 #home {
