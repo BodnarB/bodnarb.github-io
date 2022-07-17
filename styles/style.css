@@ -228,6 +228,7 @@ h3 {
 #contact {
     background-color: #121212;
     border-bottom: 1px solid #2a2a2a;
+    background-image: linear-gradient(180deg, #0e151ce8 0%, #0d0d0d 100%), url(../imgs/homebg.svg);
 }
 
 form {
