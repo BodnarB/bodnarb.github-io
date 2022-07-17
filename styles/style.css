@@ -112,7 +112,6 @@ header {
     display: flex;
     padding: 0rem;
     background-image: linear-gradient(180deg, #02101dd5 0%, #4e5f688f 100%), url(../imgs/homebg.svg);
-    background-size: cover;
     background-position: center;
     flex-direction: column;
 }
