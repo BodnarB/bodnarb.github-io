@@ -294,13 +294,21 @@ textarea.form-input {
     display: block;
     margin: 2rem auto;
     font-size: 1.1rem;
-    background: linear-gradient(135deg, #ffb1006c 0%, #000000 100%);
+    background-color: var(--main-color) ;
     border: none;
     border-radius: 0.2rem;
-    color: var(--main-font-color);
+    color: #13161a;
     padding: 0.5rem 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     box-shadow: rgb(0 0 0) 0px 15px 11px -17px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    color: var(--main-color);
+    background-color: #13161a;
+    transition-duration: 0.3s;
+    outline: 1px solid var(--main-color);
 }
 
 footer {
@@ -465,13 +473,7 @@ footer p {
         max-width: 700px;
     }
 
-    .btn-submit:hover {
-        cursor: pointer;
-        color: white;
-        background-color: var(--main-color);
-        transition-duration: 0.3s;
-
-    }
+  
 
     .footer-btn:hover {
         color: var(--main-font-color);
