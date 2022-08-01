@@ -89,7 +89,7 @@ header {
 }
 
 .logo {
-    width: 2.5rem;
+    width: 3rem;
     display: block;
 }
 
@@ -440,7 +440,7 @@ footer p {
     }
 
     .logo {
-        margin-left: 2rem;
+        margin: 0.5rem 0 0.5rem 2rem;
     }
 
     #home {
@@ -491,7 +491,7 @@ footer p {
     }
 
     .logo {
-        margin: 0;
+        margin: 0.5rem 0;
     }
 
     #home {
@@ -531,7 +531,8 @@ footer p {
 @media (min-width: 1400px) {
 
     #home {
-        height: 100vh;
+        height: 95vh;
+        min-height: 800px;
         padding: 17rem 12rem;
         align-items: flex-start;
     }
