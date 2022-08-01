@@ -86,6 +86,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #04111e;
+}
+
+main {
+    padding-top: 55px;
 }
 
 .logo {
@@ -138,6 +146,12 @@ h1 {
 .git-linked svg {
     margin-right: 0.8rem;
     display: block;
+}
+
+.git-linked svg:hover {
+    fill: var(--main-color);
+    transition-duration: 0.2s;
+    transform: scale(1.1);
 }
 
 .section-title {
@@ -326,6 +340,10 @@ footer {
     color: var(--main-color);
 }
 
+.footer-btn a:hover {
+    color: var(--main-font-color);
+}
+
 footer p {
     text-align: center;
     font-size: 0.9rem;
@@ -345,11 +363,7 @@ footer p {
         padding: 2rem;
     }
 
-    .git-linked svg:hover {
-        fill: var(--main-color);
-        transition-duration: 0.2s;
-        transform: scale(1.1);
-    }
+
 
     #home {
         display: flex;
@@ -445,6 +459,11 @@ footer p {
 
     header {
         padding: 0;
+        position: relative;
+    }
+
+    main {
+        padding-top: 0;
     }
 
     .logo {
@@ -472,12 +491,8 @@ footer p {
     form {
         max-width: 700px;
     }
-
   
-
-    .footer-btn:hover {
-        color: var(--main-font-color);
-    }
+  
 
 }
 
