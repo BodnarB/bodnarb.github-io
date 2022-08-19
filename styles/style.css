@@ -251,8 +251,8 @@ h3 {
 
 .skills-icons {
     display: block;
-    width: 50px;
-    max-width: 100%;
+    max-width: 60px;
+    height: 45px;
     padding: 0 0.3rem;
 }
 
@@ -363,8 +363,6 @@ footer p {
         padding: 2rem;
     }
 
-
-
     #home {
         display: flex;
         align-items: center;
@@ -391,7 +389,7 @@ footer p {
     }
 
     .projects-container {
-        padding-bottom: 3rem;
+        padding: 3rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -480,7 +478,7 @@ footer p {
     }
 
     .skills-icons {
-        width: 60px;
+        height: 45px;
     }
 
     .projec-links a:hover {
